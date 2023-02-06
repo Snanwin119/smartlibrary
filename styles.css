@@ -230,9 +230,44 @@ width: 100px;
 }
 
 
+/*Next Page*/
 
+.container {
+  display: flex;
+  display: inline;
+}
+.child-books {
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+  grid-gap: 10px;
+  
+  padding: 10px;
 
+  
+}
 
+.child-books .book button{
+  background-color: orange;
+}
 
+.child-books {
 
  
+  
+}
+
+
+
+
+.container-adult img{
+  display: grid;
+  grid-template-rows: auto auto auto auto ;
+  grid-gap: 10px;
+  display: inline;
+  
+  padding: 10px;
+
+}
+
+
+
