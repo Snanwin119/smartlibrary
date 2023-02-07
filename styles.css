@@ -323,3 +323,41 @@ margin: 8px 0;}
   display: flex;
 }
 
+/* Chuck Page   */
+.chuck-container{
+  display: flex
+}
+.chuck-top-section {
+ 
+  
+ 
+  display: inline-block;
+  margin-right: 0;
+  text-align: center;
+  width: 50%;
+  padding: 10px;
+} 
+
+.chuck-top-section h4 {
+  color: black;
+}
+
+
+.big-chuck img {
+  left: 20px;
+  position: absolute;
+}
+.big-chuck {
+  position: relative;
+}
+
+.inline-chuck p {
+  font-size: 15px;
+  color: black;
+}
+
+.inline-chuck button {
+
+  background-color: white;
+
+}
