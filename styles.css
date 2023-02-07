@@ -26,6 +26,13 @@
  
   align-items: center;
   justify-content: space-between;
+  display: inline-block;
+}
+
+.top-navigation-right {
+  right: 0;
+  position: fixed;
+  top: 50px;
 }
 
 h1 {
@@ -50,6 +57,9 @@ p {
   justify-content: space-between;
   gap: 20em;
 }
+
+
+
 body {
   height: 100%;
   width: auto;
@@ -250,11 +260,6 @@ width: 100px;
   background-color: orange;
 }
 
-.child-books {
-
- 
-  
-}
 
 
 
@@ -268,6 +273,53 @@ width: 100px;
   padding: 10px;
 
 }
+/* create account page*/
+
+.line-hor {
+  border-bottom: 2px solid black;
+  margin-top: 5px;
+  width: 100%;
+}
 
 
+
+.create {
+  font-size: 30px;
+  text-align: center;
+  
+}
+
+input[type=text],select {
+  
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+
+margin: 8px 0;}
+
+#fname {
+  display: flex;
+
+}
+
+.create-account-btm {
+  position: absolute; right:200px;top: 400px;
+  background-color:rgba(239, 86, 0, 1);
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 200px;
+  
+  display: flex;
+}
 
